@@ -21,6 +21,9 @@ public class Main {
             if (mClass.equals("sqrt")) {
                 System.out.println("Correct");
             }
+            else {
+                System.out.println("Incorrect");
+            }
         }
         if (operation.equals("subtract")) {
             double resultTwo = Math.pow(newFirstNumber,newSecondNumber);
@@ -30,6 +33,9 @@ public class Main {
             String mClass2 = kbReader.nextLine();
             if (mClass2.equals("power")) {
                 System.out.println("Correct"); }
+                else {
+                System.out.println("Incorrect");
+            }
 
         }
         if (operation.equals("multiply")) {
@@ -38,8 +44,11 @@ public class Main {
             String s4 = kbReader.nextLine();
             System.out.println("Can you identify what math class method I ran the real answer through?");
             String mClass3 = kbReader.nextLine();
-            if (mClass3.equals("add")) {
+            if (mClass3.equals("addition")) {
                 System.out.println("Correct");
+            }
+            else {
+                System.out.println("Incorrect");
             }
 
         }
@@ -49,8 +58,11 @@ public class Main {
             String s5 = kbReader.nextLine();
             System.out.println("Can you identify what math class method I ran the real answer through?");
             String mClass4 = kbReader.nextLine();
-            if (mClass4.equals("multiply")) {
+            if (mClass4.equals("multiplication")) {
                 System.out.println("Correct");
+            }
+            else {
+                System.out.println("Incorrect");
             }
 
         }
